@@ -49,7 +49,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
 * 2.2 Create clone github file
 	
 	```
-	git clone https://github.com/Hadoop-bigdata/Hadoop.git
+	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
 	```
 	For the Mac users, if you meet the error
 	```
@@ -61,7 +61,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	```
 	After try download the xcode, then type the same code:
 	```
-	git clone https://github.com/Hadoop-bigdata/Hadoop.git
+	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
  	```
 	
 * 2.3 Connect the Hadoop Network
