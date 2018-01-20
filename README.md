@@ -39,7 +39,6 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	
 	```
 	$docker pull kiwenlau/hadoop:1.0
-	//command to pull Hadoop image into Docker
 	```
 	Thanks to kiwenlau who has already built the Hadoop image in docker.
 	
@@ -51,7 +50,6 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	
 	```
 	$git clone https://github.com/Hadoop-bigdata/Hadoop.git
-	//command to download the github file into local machine
 	```
 	For the Mac users, if you meet the error
 	```
@@ -60,7 +58,6 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	You can try:
 	```
 	$xcode-select –install
-	//command to download the xcode
 	```
 	After try download the xcode, then type the same code:
 	```
@@ -71,5 +68,4 @@ After install Docker on the local machine, you need to open the terminal (for MA
 
 	```
 	$docker network create --driver=bridge hadoop
- 	//command to create the network to connect the master container with slave container
 	```
