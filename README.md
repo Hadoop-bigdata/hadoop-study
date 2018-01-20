@@ -38,7 +38,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
 * 2.1 Pull Hadoop Image
 	
 	```
-	$docker pull kiwenlau/hadoop:1.0
+	docker pull kiwenlau/hadoop:1.0
 	```
 	Thanks to kiwenlau who has already built the Hadoop image in docker.
 	
