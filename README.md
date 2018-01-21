@@ -4,16 +4,16 @@
 
 ### 1.1 Download Docker 
 	
-	Before Download the Docker make sure your computer supports vitrual machine.
+Before Download the Docker make sure your computer supports vitrual machine.
 
-	For Mac: https://www.docker.com/docker-mac
+For Mac: https://www.docker.com/docker-mac
 	
-	For Windows: https://www.docker.com/docker-windows
+For Windows: https://www.docker.com/docker-windows
 	
 	
 ### 1.2 Install Docker on the local machine
 	
-* 1.3 Set up Docker Environment
+### 1.3 Set up Docker Environment
 
 	For MAC users:
 	
@@ -37,9 +37,9 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	
 ### 2.1 Pull Hadoop Image
 	
-	```
+
 	docker pull hadoopstudy/hadoop_bigdata
-	```
+
 Thanks to hadoop study group that has already built the Hadoop image in docker.
 	
 
