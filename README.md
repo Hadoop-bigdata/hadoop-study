@@ -84,9 +84,6 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	docker run -itd --net=hadoop -p 50070:50070 -p 8088:8088 -p 8888:8888 --name hadoop-master --hostname hadoop-master hadoopstudy/hadoop_bigdata:latest
 	docker run -itd --net=hadoop --name hadoop-slave1 --hostname hadoop-slave1 hadoopstudy/hadoop_bigdata:latest
 	docker run -itd --net=hadoop --name hadoop-slave2 --hostname hadoop-slave2 hadoopstudy/hadoop_bigdata:latest
-	docker exec -it hadoop-master bash
-	
-	
-	
+	docker exec -it hadoop-master bash	
 	```
 	
