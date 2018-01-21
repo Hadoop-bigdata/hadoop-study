@@ -11,9 +11,9 @@ For Mac: https://www.docker.com/docker-mac
 For Windows: https://www.docker.com/docker-windows
 	
 	
-### 1.2 Install Docker on the local machine
+ 1.2 Install Docker on the local machine
 	
-* 1.3 Set up Docker Environment
+ 1.3 Set up Docker Environment
 
 	For MAC users:
 	
