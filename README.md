@@ -40,7 +40,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
 	```
 	docker pull hadoopstudy/hadoop_bigdata
 	```
-	Thanks to hadoop study group that has already built the Hadoop image in docker.
+Thanks to hadoop study group that has already built the Hadoop image in docker.
 	
 
 
