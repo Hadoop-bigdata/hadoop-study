@@ -51,15 +51,15 @@ Thanks to hadoop study group that has already built the Hadoop image in docker.
 	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
 	```
 	
-	For the Mac users, if you meet the error
+For the Mac users, if you meet the error
 	```
 	xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at : /Library/Developer/CommandLineTools/usr/bin/xcrun
 	```
-	You can try:
+You can try:
 	```
 	xcode-select –install
 	```
-	After try download the xcode, then type the same code:
+After try download the xcode, then type the same code:
 	```
 	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
  	```
@@ -72,7 +72,7 @@ Thanks to hadoop study group that has already built the Hadoop image in docker.
 	./start-container.sh
 	```
 	
-	If you can't execut the sh file, like some windows system, please execut the command as below:
+If you can't execut the sh file, like some windows system, please execut the command as below:
 
 	```
 	docker network create --driver=bridge hadoop
