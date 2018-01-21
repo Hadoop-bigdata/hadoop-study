@@ -64,6 +64,7 @@ And then run the git clone script again.
 
 ### 3.1 Create the hadoop cluster
 please run the script below, the cluster will automatically create.
+
 	cd hadoop_study
 	./start-container.sh
 
@@ -77,9 +78,11 @@ If you can't execut the sh file, like some windows system, please execut the com
 	docker exec -it hadoop-master bash
 	
 ### 3.2 start the hadoop cluster
-You are in the master now, please run the command below, the hdfs and yarn will begin to run
+You are in the master now, please run the command below, the hdfs and yarn will begin to run.
+
 	./start-hadoop.sh
 And then try to create the first folder on hdfs
+
 	hadoop fs -mkdir -p input
 
 	
