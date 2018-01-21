@@ -2,7 +2,7 @@
 
 ## 1. Install Docker
 
-# 1.1 Download Docker 
+### 1.1 Download Docker 
 	
 	Before Download the Docker make sure your computer supports vitrual machine.
 
@@ -11,7 +11,7 @@
 	For Windows: https://www.docker.com/docker-windows
 	
 	
-# 1.2 Install Docker on the local machine
+### 1.2 Install Docker on the local machine
 	
 * 1.3 Set up Docker Environment
 
@@ -35,7 +35,7 @@
 
 After install Docker on the local machine, you need to open the terminal (for MAC) or command line (for Windows)
 	
-# 2.1 Pull Hadoop Image
+### 2.1 Pull Hadoop Image
 	
 	```
 	docker pull hadoopstudy/hadoop_bigdata
@@ -45,7 +45,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
 
 
 	
-# 2.2 Create clone github file
+### 2.2 Create clone github file
 	
 	```
 	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
@@ -65,7 +65,7 @@ After install Docker on the local machine, you need to open the terminal (for MA
  	```
 	
 
-# 2.3 start the hadoop cluster
+### 2.3 start the hadoop cluster
 
 	```
 	cd hadoop_study
