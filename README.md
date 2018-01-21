@@ -27,9 +27,8 @@ For Windows: https://www.docker.com/docker-windows
 	
 	The Docker's default environment CPUs is 2 and Memory is 2GB, while for Hadoop we need to at least
 	update the CPUs to 4 and Memory to 4GB for computer.
-	Please notice that the Docker preferences depends on your computer.
-	The more Memory and CPUs you give to Docker, the faster running speed you have. 
-	If the Docker is not running properly, giving more Memory and CPUs can potentially solve the problem.
+	
+	
 	
 ## 2. Pull Hadoop Image in Docker
 
@@ -57,14 +56,14 @@ You can try:
 
 	xcode-select –install
 
-After try download the xcode, then type the same code:
-
-	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
+And then run the git clone script again.
 
 	
 
-### 2.3 start the hadoop cluster
+## 3 start the hadoop cluster
 
+### 3.1 Create the hadoop cluster
+please run the script below, the cluster will automatically create.
 	cd hadoop_study
 	./start-container.sh
 
@@ -75,6 +74,12 @@ If you can't execut the sh file, like some windows system, please execut the com
 	docker run -itd --net=hadoop -p 50070:50070 -p 8088:8088 -p 8888:8888 --name hadoop-master --hostname hadoop-master hadoopstudy/hadoop_bigdata:latest
 	docker run -itd --net=hadoop --name hadoop-slave1 --hostname hadoop-slave1 hadoopstudy/hadoop_bigdata:latest
 	docker run -itd --net=hadoop --name hadoop-slave2 --hostname hadoop-slave2 hadoopstudy/hadoop_bigdata:latest
-	docker exec -it hadoop-master bash	
+	docker exec -it hadoop-master bash
+	
+### 3.2 start the hadoop cluster
+You are in the master now, please run the command below, the hdfs and yarn will begin to run
+	./start-hadoop.sh
+And then try to create the first folder on hdfs
+	hadoop fs -mkdir -p input
 
 	
