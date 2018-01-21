@@ -38,19 +38,19 @@ After install Docker on the local machine, you need to open the terminal (for MA
 * 2.1 Pull Hadoop Image
 	
 	```
-	docker pull kiwenlau/hadoop:1.0
+	docker pull hadoopstudy/hadoop_bigdata
 	```
-	Thanks to kiwenlau who has already built the Hadoop image in docker.
+	Thanks to hadoop study group that has already built the Hadoop image in docker.
 	
-	Reference: https://github.com/kiwenlau/hadoop-cluster-docker
-	
-	In project, we will build our Hadoop Environment based on his Hadoop image. 
+
+
 	
 * 2.2 Create clone github file
 	
 	```
 	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
 	```
+	
 	For the Mac users, if you meet the error
 	```
 	xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at : /Library/Developer/CommandLineTools/usr/bin/xcrun
