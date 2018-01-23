@@ -9,6 +9,8 @@ Before Download the Docker make sure your computer supports vitrual machine.
 For Mac: https://www.docker.com/docker-mac
 	
 For Windows: https://www.docker.com/docker-windows
+
+Windows Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
 	
 	
  1.2 Install Docker on the local machine
