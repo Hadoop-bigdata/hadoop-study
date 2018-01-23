@@ -17,7 +17,7 @@ sudo docker run -itd \
                 -p 8888:8888 \
                 --name hadoop-master \
                 --hostname hadoop-master \
-                hadoop:python &> /dev/null
+                hadoopstudy/hadoop_bigdata &> /dev/null
 
 
 # start hadoop slave container
@@ -30,7 +30,7 @@ do
                         --net=hadoop \
                         --name hadoop-slave$i \
                         --hostname hadoop-slave$i \
-                        hadoop:python &> /dev/null
+                        hadoopstudy/hadoop_bigdata &> /dev/null
         i=$(( $i + 1 ))
 done
 
