@@ -6,9 +6,9 @@
 	
 Before Download the Docker make sure your computer supports vitrual machine.
 
-For Mac: https://www.docker.com/docker-mac
+For newer than Mac 10.10: https://www.docker.com/docker-mac
 	
-For Windows: https://www.docker.com/docker-windows
+For Windows 10: https://www.docker.com/docker-windows
 
 Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
 (For old version of Mac and Windows system, more stable chioce)
