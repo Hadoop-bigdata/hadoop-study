@@ -48,7 +48,7 @@ Thanks to hadoop study group that has already built the Hadoop image in docker.
 	
 ### 2.2 Create clone github file
 	
-	git clone https://github.com/Hadoop-bigdata/hadoop_study.git
+	git clone https://github.com/Hadoop-bigdata/hadoop-study.git
 	
 For the Mac users, if you meet the error
 
