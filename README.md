@@ -70,8 +70,7 @@ And then run the git clone script again.
 ### 3.1 Create the hadoop cluster
 please run the script below, the cluster will automatically create.
 
-	cd study
-	./start-container.sh
+	study/start-container.sh
 
 	
 If you can't execut the sh file, like some windows system, please execut the command as below:
