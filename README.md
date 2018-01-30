@@ -10,7 +10,8 @@ For Mac: https://www.docker.com/docker-mac
 	
 For Windows: https://www.docker.com/docker-windows
 
-Windows Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
+Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
+(For old version of Mac and Windows system, more stable chioce)
 	
 	
  1.2 Install Docker on the local machine
