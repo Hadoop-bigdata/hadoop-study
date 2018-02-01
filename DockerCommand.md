@@ -15,40 +15,40 @@
 
 ## 2. Docker Basic Command
 <br> Docker is quite famous in the market right now. Learning it would not be a bad choice.</br>
-<br> Here I will try to introduce some fundamental docker command to help you better handle Docker:</br>
+<br> Here I will try to introduce some fundamental docker command to help you better understand Docker:</br>
 
 ### 2.1 start your container
 <br>When you restart your laptop, the docker and all the containers would shut down in the same time.</br>
-<br>But you want to run your container again, like our hadoop container, we can type:</br>
+<br>But if you want to run your container again, like our hadoop container, we can type:</br>
 
 	docker start hadoop-master hadoop-slave1 hadoop-slave2
-<br> You are telling the docker to start the containers who names are hadoop-master,slave.</br>
+<br> You are telling the docker to start the containers whose names are hadoop-master,slave.</br>
 <br> You can use the containers' name or ID, they are the same.</br>
 ##
 ### 2.2 attach to your container
-<br>So now maybe you have already started your container, but you might found that you still not connect to the containers, like Hadoop-Master.</br>
+<br>So now maybe you have already started your container, but you might find that you still do not connect to the containers, like Hadoop-Master.</br>
 <br>Now we can type:</br>
 
 	docker exec -ti hadoop-master bash
 <br> You are telling the docker to exec the container's bash command, so that you can use bash to control the container.</br>
 ##
 ### 2.3 list your container
-<br>Sometimes you might open several containers, but you want to find them out and check them.</br>
+<br>Sometimes you might open several containers, if you want to find them out and check them status.</br>
 <br>Then we can type:</br>
 
 	docker ps -a
 <br> You would get all the containers you create, including related message, like nanme or something else.</br>
 ##
 ### 2.3 copy file between host and container
-<br>Now you want to copy the file from your laptop to your container.</br>
+<br>Now you want to copy the folder from your laptop to your container.</br>
 <br>Then we can type:</br>
 
 	docker cp E:\bigdata hadoop-master:\root\try
-<br> It means that you copy your local file  E:\bigdata to the container hadoop-master, and save them in the \root\try.</br>
+<br> It means that you copy your local folder  E:\bigdata to the container hadoop-master, and save them in the \root\try.</br>
 <br>If we type:</br>
 
 	docker cp hadoop-master:\root\try E:\bigdata 
-<br> It means that you copy your container's file to your local laptop.</br>
+<br> It means that you copy your container's folder to your local laptop.</br>
 
 ### 2.4 For more docker command
 <br>So there are still lots of other command that can help better control the docker.</br>
@@ -58,3 +58,6 @@ https://docs.docker.com/engine/reference/commandline/docker/
 ## Other related tutorial:
 <br>Hadoop installation:</br>
 https://github.com/Hadoop-bigdata/study/blob/master/README.md
+<br></br>
+<br>Hadoop basic command</br>
+https://github.com/Hadoop-bigdata/study/blob/master/HadoopCommand.md
