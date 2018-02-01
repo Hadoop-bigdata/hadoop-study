@@ -89,4 +89,8 @@ And then try to create the first folder on hdfs
 
 	hadoop fs -mkdir -p input
 
-	
+
+## Other related tutorial:
+<br>Docker Basic Command:</br>
+https://github.com/Hadoop-bigdata/study/blob/master/DockerCommand.md
+
