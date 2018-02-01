@@ -39,7 +39,7 @@
 	docker ps -a
 <br> You would get all the containers you create, including related message, like nanme or something else.</br>
 ##
-### 2.3 copy file between host and container
+### 2.4 copy file between host and container
 <br>Now you want to copy the folder from your laptop to your container.</br>
 <br>Then we can type:</br>
 
@@ -50,7 +50,7 @@
 	docker cp hadoop-master:\root\try E:\bigdata 
 <br> It means that you copy your container's folder to your local laptop.</br>
 
-### 2.4 For more docker command
+### 2.5 For more docker command
 <br>So there are still lots of other command that can help better control the docker.</br>
 <br> You can find the official tutorial as below, I hope that can help you.</br>
 https://docs.docker.com/engine/reference/commandline/docker/
