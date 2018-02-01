@@ -93,4 +93,6 @@ And then try to create the first folder on hdfs
 ## Other related tutorial:
 <br>Docker Basic Command:</br>
 https://github.com/Hadoop-bigdata/study/blob/master/DockerCommand.md
-
+<br></br>
+<br>Hadoop basic command</br>
+https://github.com/Hadoop-bigdata/study/blob/master/HadoopCommand.md
