@@ -55,6 +55,6 @@
 <br> You can find the official tutorial as below, I hope that can help you.</br>
 https://docs.docker.com/engine/reference/commandline/docker/
 
-# Other related tutorial:
-Hadoop installation:
+## Other related tutorial:
+<br>Hadoop installation:</br>
 https://github.com/Hadoop-bigdata/study/edit/master/README.md
