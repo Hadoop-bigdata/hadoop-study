@@ -57,4 +57,4 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
 ## Other related tutorial:
 <br>Hadoop installation:</br>
-https://github.com/Hadoop-bigdata/study/edit/master/README.md
+https://github.com/Hadoop-bigdata/study/blob/master/README.md
