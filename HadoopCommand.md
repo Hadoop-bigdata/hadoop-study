@@ -6,7 +6,7 @@
 <br>It means that you are telling hadoop fileSystem to copy <b>a.txt</b> to <b>b.txt</b></br>
 <br>The hadoop fileSystem would regard your file/folder in your home directory, if you don't specify the absolute path.</br>
 ##
-### 1 create a new folder
+### 1. create a new folder
 <br>We try to create a new folder "input" under our home directory.</br>
 <br>We can type:</br>
 
@@ -17,7 +17,7 @@ or the whole path:
 	hadoop fs -mkdir /user/yourUserName/input
 <br> Please notice the "yourUserName" should be the excat username, in our study environment, it's "root".</br>
 ##
-### 2 List the directory
+### 2. list the directory
 <br>If you want to see what kinds of files and folder in your home directory.</br>
 <br>Then we can type:</br>
 
@@ -28,7 +28,7 @@ or the whole path:
 	hadoop fs –ls /user/root/input
 
 
-### 3 copy file from local to HDFS
+### 3. copy file from local to HDFS
 <br>There are two command can do this thing. One is copyFromLocal, another is put</br>
 <br>CopyFromLocal is more strict than put, because it just allow send file from local to HDFS.</br>
 <br>Suppose you have a file called test.txt, or maybe you create as below, we can try:</br>
@@ -40,7 +40,7 @@ Or we can use put,they are the same:
 
 	hadoop fs -put test.txt input
 <br> In this example we put file to HDFS input folder under home dirctory.</br>
-### 4 copy file from HDFS to local
+### 4. copy file from HDFS to local
 <br>It's almost the same as above, but we just change the command from copyFromLocal to copyToLocal
 
 	hadoop fs -copyToLocal test.txt 1.txt
@@ -49,7 +49,7 @@ Or we can use get:
 
 	hadoop fs -get test.txt 2.txt
 
-### 5 move file in HDFS
+### 5. move file in HDFS
 <br>So We can use move command:
 
 	hadoop fs -mv test.txt input/1.txt
@@ -57,12 +57,12 @@ Or we can use get:
 
 	hadoop fs -mv input/1.txt input/2.txt
 
-### 6 find file in HDFS
+### 6. find file in HDFS
 <br>Sometimes we want to find the path of our file in HDFS, we can try:
 
 	hadoop fs -find -name 1.txt
 
-### 7 check the status of HDFS
+### 7. check the status of HDFS
 <br>If we are wondering whether our Hadoop filesystem is healthy, we can type:
 
 	hadoop fsck /user
@@ -70,7 +70,7 @@ or:
 
 	hdfs fsck /user
 
-### 8 Running Mapreduce by Hadoop-Streaming
+### 8. run Mapreduce by Hadoop-Streaming
 <br>We want to use python to run mapreduce, while the original mapreduce just support Java. Thus we use some tools to help us translate the python language, that is Hadoop-Streaming.</br>
 The format of running Hadoop-Streaming is like this:
 
