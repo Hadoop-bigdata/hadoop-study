@@ -5,7 +5,7 @@ I try to run the related command step by step so that you could save more time o
 
 ### 1.1 restart hadoop virtual machine in docker
 When you shut down or restart your laptop, your docker and all virtual machines above it would shut down at the same time.
-Thus if you want to run hadoop master, please restart 3 virtual machines (1 master, 2 slaves) on docker first:
+Thus, if you want to run hadoop master, please restart 3 virtual machines (1 master, 2 slaves) on docker first:
 
 	docker start hadoop-master hadoop-slave1 hadoop-slave2
 <br></br>
@@ -14,8 +14,8 @@ Because we have 3 machines running on docker, we need to tell docker which one w
 
 	docker exec -ti hadoop-master bash
 <br></br>
-### 1.3 restart hadoop cluster on 3 virtural machine
-Now we are in the hadoop-master machine (container), and then we need to tell the master we want to start the hadoop cluster and connect all 3 manchine together:
+### 1.3 restart hadoop cluster on 3 virtual machine
+Now we are in the hadoop-master machine (container), and then we need to tell the master we want to start the hadoop cluster and connect all 3 machine together:
 
 	./start-hadoop.sh
 	
@@ -103,7 +103,7 @@ You can write your own code from the example, WordCount.java. Here I will use it
 For more detail, pleas go to the blackboard and find it in the Mapreduce slide.
 <br></br>
 ## 4.2 write and save your code in java file
-Set environment variable to find libraries and denpendence.
+Set environment variable to find libraries and dependences.
 	
 	export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 <br></br>	
