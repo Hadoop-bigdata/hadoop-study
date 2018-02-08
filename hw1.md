@@ -53,6 +53,7 @@ And then we can find the "homework1" on the current path and go to it:
 The alice.txt is used for homework, let's try to move it to hdfs.
 
 	hadoop fs -put alice.txt input
+For other files, you can also use this command to upload your flies to hdfs.
 <br></br>	
 # 3. Run MapReduce in Python code
 
