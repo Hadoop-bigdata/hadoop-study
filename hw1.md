@@ -56,21 +56,15 @@ The alice.txt is used for homework, let's try to move it to hdfs.
 <br></br>	
 # 3. Run MapReduce in Python code
 
-## 3.1 go into the homework1 folder
-<br>Now all the files have been downloaded, lets go to homework1 folder and see what in it:
 
-
-	cd homework1
-	ls
-<br></br>
-## 3.2 check your code in local
+## 3.1 check your code in local
 <br><b>Important:</b> please try to debug your code first in this mode after writing python code.</br>
 Now let's check whether the codes can run locally:
 
 	cat alice.txt | ./map.py | sort | ./reduce.py
 If you found any error in this mode, it means your code has something wrong. Please go back to check and debug your code.
 <br></br>
-## 3.3 check your code in hadoop cluster
+## 3.2 check your code in hadoop cluster
 Now our code can run on the local mode, let's move on to run on hadoop cluster.
 
 
@@ -86,7 +80,7 @@ Now our code can run on the local mode, let's move on to run on hadoop cluster.
 -input/output: the HDFS path and files you want read and write.
 <br></br>
 
-## 3.4 check your answer in hdfs
+## 3.3 check your answer in hdfs
 <br>If our job is successful, we can see what in the output folder.</br>
 <br>Please notice that your output folder is where you set above.</br>
 
