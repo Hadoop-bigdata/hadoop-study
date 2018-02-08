@@ -32,7 +32,7 @@ Or maybe you haven't finished installing the hadoop cluster, you can see here:
 https://github.com/Hadoop-bigdata/study/blob/master/README.md
 <br></br>
 	
-# 2. Download the homework files
+# 2. Download the homework files(Just one time)
 <br>In order to make your life easier, I package all file you need for homework1.</br>
 <b>Hint: Step 2 just need to run once.</b>
 <b>If you could not run your code in the last lesson, I recommend you to do it again as below.</b>
