@@ -48,12 +48,12 @@ And then we can find the "homework1" on the current path and go to it:
 
 	ls
 	cd homework1
-	
+<br></br>	
 ## 2.3 save text files to hdfs:
 The alice.txt is used for homework, let's try to move it to hdfs.
 
 	hadoop fs -put alice.txt input
-	
+<br></br>	
 # 3. Run MapReduce in Python code
 
 ## 3.1 go into the homework1 folder
@@ -70,7 +70,7 @@ Now let's check whether the codes can run locally:
 	cat alice.txt | ./map.py | sort | ./reduce.py
 If you found any error in this mode, it means your code has something wrong. Please go back to check and debug your code.
 <br></br>
-## 3.2 check your code in hadoop cluster
+## 3.3 check your code in hadoop cluster
 Now our code can run on the local mode, let's move on to run on hadoop cluster.
 
 
@@ -86,7 +86,7 @@ Now our code can run on the local mode, let's move on to run on hadoop cluster.
 -input/output: the HDFS path and files you want read and write.
 <br></br>
 
-## 3.2 check your answer in hdfs
+## 3.4 check your answer in hdfs
 <br>If our job is successful, we can see what in the output folder.</br>
 <br>Please notice that your output folder is where you set above.</br>
 
@@ -94,7 +94,7 @@ Now our code can run on the local mode, let's move on to run on hadoop cluster.
 <br> Then we use cat command to see the output.</br>
 
 	hadoop fs -cat output/part-00000
-	<br></br>
+<br></br>
 # 4. Run MapReduce in Java code
 For some students, maybe they want to write in the java code. Let's see how to run java code here.
 
@@ -123,7 +123,7 @@ Now we can check our answer in the folder where we set above.
 
 	hdfs dfs -ls output
 	hdfs dfs -cat output/part-r-00000
-
+<br></br>
 # 5 Download your code and output to your laptop
 Now you might have finished the homework and want to download the files back to your laptop.
 
@@ -131,12 +131,13 @@ Now you might have finished the homework and want to download the files back to 
 I just give an example here. Please set your own output file path.
 
 	hadoop fs -get output/part-00000
-	
+<br></br>
 ## 5.2 get the local path
 If you still in the homework1 folder, you don't need to do this step.
 If not, please type:
 
 	pwd
+<br></br>
 ## 5.3 download the files to your local laptop
 Please open a new terminal/docker quickstart terminal, and then type:
 
